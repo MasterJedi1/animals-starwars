@@ -12,19 +12,19 @@
                         },
                         {
                             "li": "Obi-Wan Kenobi, Padawan de Qui-Gon Jinn, Va vers Nabbo avec Palpatine. Ils Rencontrent des difficultées sur la route mais y survivent et sauvent la reine qui etait prisonnière",
-                            "image": "../images/starwarsi/obiwan.jpeg",
+                            "image": "../images/starwars1/obiwan.jpg",
                             "alt" :"Obiwan Kenobi, Padawan",
                             "index": "2"
                         },
                         {
                             "li": "Anakin Skywalker, aussi connu comme le père de Luc Skywalker, est un gentil monsieur qui est allé du coté obscur",
-                            "image": "../images/starwarsi/Anakin.jpeg",
+                            "image": "../images/starwars1/anakin.jpg",
                             "alt":"Anakin Skywalker (young)",
                             "index": "3"
                         },
                         {
                             "li": "Haut conseil Jedi: corps gouvernant l'Ordre Jedi, il est composé de douze Maîtres Jedi, dont un qui était le Grand Maître. Ils se réunissent dans la Tour du Haut Conseil du Temple Jedi sur Coruscant",
-                            "image": "../images/starwarsi/jedicouncil.jpeg.jpeg",
+                            "image": "../images/starwars1/jedicouncil.jpeg",
                                                         
                             "index": "4"
                         }
@@ -34,25 +34,25 @@
                     "Separatist": [
                         {
                             "li": "Une armée de droides appartant à la Fédération qui profite de l'mbourbement du Sénat pour instaurer un blocus sur Naboo pour sécuriser son commerce, elle envahit souvent des civilisations pour mettre leur population en esclavage",
-                            "image": "../images/starwarsi/droidarmy.jpg",
+                            "image": "../images/starwars1/droidarmy.jpg",
                             "alt" : "Armée de droides de la Fédération",
                             "index": "1"
                         },
                          {
                             "li": "Sidious, un Sith Lord qui manipule la fédération du commerce pour parvenir à mettre un terme à l'Ordre Jedi, il influence et garde une main mise invisible sur les débats du Sénat",
-                            "image": "../images/starwarsi/sidious.png",
+                            "image": "../images/starwars1/sidious.png",
                             "al":"Sidious, Sith Lord",
                             "index": "2"
                         },
                         {
                             "li": "Darth Maul est l'Apprenti Sith de Darth Sidious, violent, féroce et considéré comme un adversaire redoutable, il 'meurt' découpé par Obi-Wan après avoir transpercé Qui-Gon Jinn.",
-                            "image": "../images/starwarsi/darthmaul.jpeg",
+                            "image": "../images/starwars1/darthmaul.jpeg",
                             "al":"Darth Maul, Apprenti Sith de Darth Sidious",
                             "index": "3"
                         },
                         {
                             "li": "Nute Gunray, un grand homme connu comme le chef de l'invasion de Naboo",
-                            "image": "../images/starwarsi/nutegunray.png.jpeg",
+                            "image": "../images/starwars1/nutegunray.png",
                             "al":"",
                             "index": "4"
                         }
