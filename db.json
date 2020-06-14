@@ -53,7 +53,7 @@
                         {
                             "li": "Nute Gunray, un grand homme connu comme le chef de l'invasion de Naboo",
                             "image": "images/starwars1/nutegunray.png",
-                            "al":"Nute Gunray leader de la Fédération du Commerce",
+                            "al":"Nute Gunray leader de la Federation du Commerce",
                             "index": "4"
                         }
                     ]
@@ -62,19 +62,19 @@
                     "Neutral": [
                         {
                             "li": "Shmi Skywalker, la mère d'Anakin, esclave",
-                            "image": "images/starwarsi/shmiskywalker.jpg",
+                            "image": "images/starwars1/shmiskywalker.jpg",
                             "alt":"Shmi Skywalker",
                             "index": "1"
                         },
                         {                       
                             "li": "Qui-Gon Jinn, Maître Jedi, libre de pensée, et contrairement à d'autres Jedi, il valorise de vivre dans le moment présent comme le meilleur moyen de communier avec la Force. Il ffrontera Darth Maul sur Naboo et y trouvera la mort",
-                            "image": "images/starwarsi/liam-neesn-as-qui-gon-jinn.jpeg",
-                            "alt":"Qui-Gon Jinn, Maître Jedi",
+                            "image": "images/starwars1/liam-neesn-as-qui-gon-jinn.jpeg",
+                            "alt":"Qui-Gon Jinn, Maitre Jedi",
                             "index": "2"
                         },
                         {
                             "li": "Toydarian Watto, propriétaire de la mère d'Anakin et d'Anakin, il  n'aime pas perdre dans les paris",
-                            "image": "images/starwarsi/watto.jpg",
+                            "image": "images/starwars1/watto.jpg",
                             "alt":"Toydarian Watto",
                             "index": "3"
                         }
