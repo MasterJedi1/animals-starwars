@@ -41,13 +41,13 @@
                          {
                             "li": "Sidious, un Sith Lord qui manipule la fédération du commerce pour parvenir à mettre un terme à l'Ordre Jedi, il influence et garde une main mise invisible sur les débats du Sénat",
                             "image": "../images/starwarsi/sidious.png",
-                            "al":"",
+                            "al":"Sidious, Sith Lord",
                             "index": "2"
                         },
                         {
-                            "li": "Maul est l'Apprenti Sith de Darth Sidious, violent, féroce et considéré comme un adversaire redoutable, il 'meurt' découpé par Obi-Wan après avoir transpercé Qui-Gon Jinn.",
+                            "li": "Darth Maul est l'Apprenti Sith de Darth Sidious, violent, féroce et considéré comme un adversaire redoutable, il 'meurt' découpé par Obi-Wan après avoir transpercé Qui-Gon Jinn.",
                             "image": "../images/starwarsi/darthmaul.jpeg",
-                            "al":"",
+                            "al":"Darth Maul, Apprenti Sith de Darth Sidious",
                             "index": "3"
                         },
                         {
