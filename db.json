@@ -5,81 +5,78 @@
                 {
                     "Republic": [
                         {
-                            "li": "Sheev Palpatine, senateur de Naboo, au Sénat, il expliquera  à la reine de Naboo les rouages de celui-ci. Il pousse ainsi la reine, lassée de ces débâts unitiles, à poser au vote une motion contre l'actuel Chancellier Suprème. Palpatine, retenu comme candidat est finalement élu en tant que Chancelier Suprème.",
+                            "li": "Sheev Palpatine, senator of Naboo .Il pousse la reine à poser au vote une motion contre l'actuel Chancellier Suprème et finit par prendre sa place",
                             "image": "../images/starwars1/palpatine_senator.png",
-                            "alt" :"Sheev Palpatine, sénateur de Naboo et Chancelier Suprème de la République ",
+                            "alt" :"Sheev Palpatine",
                             "index": "1"
                         },
                         {
-                            "li": "Obi-Wan Kenobi, Padawan de Qui-Gon Jinn, il accompagne celui-ci pour trouver une solution diplomatique à l'embargo de la Fédération du Commerce contre Naboo, planète faisant partie de la République. Les négociations échouant, il se retrouve sur Naboo et libère la reine prisonnière. Ils quittent la planète malgré le blocus. Suite à des dégats, le vaisseau est contraint de se poser sur Tatooine pour être réparé. Les réparations finies, ils repatent pour Coruscant. Après l'élection de Palpatine, ils racompagnent la reine de Naboo et la guerre éclate entre les Gungans et les forces droides des Séparatistes.",
-                            "image": "../images/starwars1/obiwan.jpg",
+                            "li": "Obi-Wan Kenobi, Padawan de Qui-Gon Jinn, Va vers Nabbo avec Palpatine. Ils Rencontrent des difficultées sur la route mais y survivent et sauvent la reine qui etait prisonnière",
+                            "image": "../images/starwarsi/obiwan.jpeg",
                             "alt" :"Obiwan Kenobi, Padawan",
                             "index": "2"
                         },
                         {
-                            "li": "Qui-Gon Jinn, Maître Jedi, libre de pensée, et contrairement à d'autres Jedi, il valorise de vivre dans le moment présent comme le meilleur moyen de communier avec la Force. En mission su ",
-                            "image": "../images/starwars1/liam-neesn-as-qui-gon-jinn.jpeg",
-                            "alt": "Qui-Gon Jinn, Maître Jedi",
+                            "li": "Anakin Skywalker, aussi connu comme le père de Luc Skywalker, est un gentil monsieur qui est allé du coté obscur",
+                            "image": "../images/starwarsi/Anakin.jpeg",
+                            "alt":"Anakin Skywalker (young)",
                             "index": "3"
                         },
                         {
-                            "li": "Anakin Skywalker",
-                            "image": "../images/starwars1/anakinskywalker.jpg",
-                            "alt":"Anakin Skywalker (young)",
+                            "li": "Haut conseil Jedi: corps gouvernant l'Ordre Jedi, il est composé de douze Maîtres Jedi, dont un qui était le Grand Maître. Ils se réunissent dans la Tour du Haut Conseil du Temple Jedi sur Coruscant",
+                            "image": "../images/starwarsi/jedicouncil.jpeg.jpeg",
+                                                        
                             "index": "4"
-                        },
-                        {
-                            "li": "Le Haut conseil Jedi, corps gouvernant l'Ordre Jedi, il est composé de douze Maîtres Jedi, dont un qui était le Grand Maître. Réuni dans la Tour du Haut Conseil du Temple Jedi sur Coruscant (planète où était le système politique de la République)",
-                            "image": "../images/starwars1/jedicouncil.jpeg",
-                            "alt": "Haut Conseil Jedi (Temple Jedi Coruiscant)",
-                            "index": "5"
                         }
                     ]
                 },
                 {
                     "Separatist": [
                         {
-                            "li": "Armée de droides de la Fédération du Commerce",
-                            "image": "../images/starwars1/droidarmy.jpg",
+                            "li": "Une armée de droides appartant à la Fédération qui profite de l'mbourbement du Sénat pour instaurer un blocus sur Naboo pour sécuriser son commerce, elle envahit souvent des civilisations pour mettre leur population en esclavage",
+                            "image": "../images/starwarsi/droidarmy.jpg",
                             "alt" : "Armée de droides de la Fédération",
                             "index": "1"
                         },
-                        {
-                            "li": "Nute Gunray",
-                            "image": "../images/starwars1/nutegunray.png",
-                            "alt":"Nute Gunray",
+                         {
+                            "li": "Sidious, un Sith Lord qui manipule la fédération du commerce pour parvenir à mettre un terme à l'Ordre Jedi, il influence et garde une main mise invisible sur les débats du Sénat",
+                            "image": "../images/starwarsi/sidious.png",
+                            "al":"",
                             "index": "2"
                         },
                         {
-                            "li": "Darth Sidious",
-                            "image": "../images/starwars1/sidious.png",
-                            "alt":"Darth Sidious",
+                            "li": "Maul est l'Apprenti Sith de Darth Sidious, violent, féroce et considéré comme un adversaire redoutable, il 'meurt' découpé par Obi-Wan après avoir transpercé Qui-Gon Jinn.",
+                            "image": "../images/starwarsi/darthmaul.jpeg",
+                            "al":"",
                             "index": "3"
                         },
                         {
-                            "li": "Darth Maul",
-                            "image": "../images/starwars1/darthmaul.jpeg",
-                            "alt":"Darth Maul",
+                            "li": "Nute Gunray, un grand homme connu comme le chef de l'invasion de Naboo",
+                            "image": "../images/starwarsi/nutegunray.png.jpeg",
+                            "al":"",
                             "index": "4"
-                        },
-                        {
-                            "li": "Nute Gunray",
-                            "image": "",
-                            "index": "2"
                         }
                     ]
                 },
                 {
                     "Neutral": [
                         {
-                            "li": "",
-                            "image": "",
+                            "li": "Shmi Skywalker, la mère d'Anakin, esclave",
+                            "image": "../images/starwarsi/shmiskywalker.jpg",
+                            "alt":"Shmi Skywalker",
                             "index": "1"
                         },
-                        {
-                            "li": "",
-                            "image": "",
+                        {                       
+                            "li": "Qui-Gon Jinn, Maître Jedi, libre de pensée, et contrairement à d'autres Jedi, il valorise de vivre dans le moment présent comme le meilleur moyen de communier avec la Force. Il ffrontera Darth Maul sur Naboo et y trouvera la mort",
+                            "image": "../images/starwarsi/liam-neesn-as-qui-gon-jinn.jpeg",
+                            "alt":"Qui-Gon Jinn, Maître Jedi",
                             "index": "2"
+                        },
+                        {
+                            "li": "Toydarian Watto, propriétaire de la mère d'Anakin et d'Anakin, il  n'aime pas perdre dans les paris",
+                            "image": "../images/starwarsi/watto.jpg",
+                            "alt":"Toydarian Watto",
+                            "index": "1"
                         }
                     ]
                 }
