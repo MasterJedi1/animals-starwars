@@ -27,31 +27,12 @@
       document.getElementById("drop1_1").style.borderRadius = "10px";
       document.getElementById("sw").innerHTML = "Star Wars <img width='20px' src='icons/round_keyboard_arrow_left_black_18dp.png'>";
     }
-  })
-  // let b_sith = document.getElementById("sith");
-  // let dr_sith = document.getElementById("Celeste");
-  // b_sith.addEventListener("click", () =>{
-  //   if(getComputedStyle(dr_sith).display != "none"){
-  //     leavesw();
-  //   }
-  //   else
-  //   {
-  //     leavesw();
-  //     replace_footer();
-  //     document.getElementById('Celeste').style.display = 'block';
-  //     document.getElementById('federation').style.display = 'none';
-  //     document.getElementById('Republic').style.display = 'none';
-  //     leaveall();
-  //   }
-  // })
- 
+  }) 
   let b_repbut = document.getElementById("repbut");
   let dr_repbut = document.getElementById("Republic");
   b_repbut.addEventListener("click", () =>{
     if(getComputedStyle(dr_repbut).display != "none"){
-      // dr.style.display = "none";
       leavesw();
-      // console.log("heck");
     }
     else
     {
@@ -69,8 +50,6 @@
     .then(response => response.json())                                    	 
     .then(function (stats) {
         statistics_data = stats;
-        var republic_governor = statistics_data[0].StarWarsI[0].Republic[0].li;
-        // console.log(republic_governor);
         var i = 0;
         for(i = 0; i < 5; i++)
         {
@@ -99,7 +78,6 @@
   let dr_csi = document.getElementById("federation");
   b_csi.addEventListener("click", () =>{
     if(getComputedStyle(dr_csi).display != "none"){
-      // dr.style.display = "none";
       leavesw();
     }
     else
@@ -118,11 +96,11 @@
     .then(response => response.json())                                    	 
     .then(function (stats) {
         statistics_data = stats;
-        // console.log(republic_governor);
         let i = 0;
+        var republic_governor = statistics_data[0].StarWarsI[0].Republic[0].li;
         for(i = 0; i < 4; i++)
         {
-          createSeparatist(statistics_data[0].StarWarsI[1].Separatist[i], statistics_data[0].StarWarsI[1].Separatist[i].li);
+          createSeparatist(statistics_data[0].StarWarsI[1].Separatist[i], republic_governor);
         }
     });
   }
@@ -147,7 +125,6 @@
   let dr_neutr = document.getElementById("neutral");
   b_neutr.addEventListener("click", () =>{
     if(getComputedStyle(dr_neutr).display != "none"){
-      // dr.style.display = "none";
       leavesw();
     }
     else
@@ -166,7 +143,6 @@
     .then(response => response.json())                                    	 
     .then(function (stats) {
         statistics_data = stats;
-        // console.log(republic_governor);
         let i = 0;
         for(i = 0; i < 3; i++)
         {

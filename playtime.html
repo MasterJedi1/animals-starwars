@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Playtime</title>
+  <meta name="viewport" content="width=device-width">
+  <meta charset="utf-8">
+  
+  <link rel="shortcut icon" type="image/ico" href="icons/darthvader.png">
+  <link rel="stylesheet" href="styleswscrawl.css" type="text/css">
+</head>
+
+<body id="bodyweb">
+
+  <div id="taches">
+    <table id="tab_tasks">
+      
+      <tr>
+        <th>
+          <li><input type="text" placeholder="enter your Title in here" id="in1"></li>
+        </th>
+        <th>
+          <li><input type="text" placeholder="enter your SubTitle in here" id="in2"></li>
+        </th>
+        <th>
+          <li><input type="text" placeholder="enter your Text in here" id="in3"></li>
+        </th>
+      </tr>
+      <td class="advice">Fill in everything or test the prefilling</td>
+      <td class="advice">Music may not be heard if blocked</td>
+    </table>
+  </div>
+  <li id="buttonhavetohide"><button type="button" onclick="launch_scrawl()">Implement</button></li>
+
+  <audio controls hidden id="player">
+    <source src="star-wars-original-opening-crawl-1977.mp3" type="audio/mpeg">
+  </audio>
+</body>
+<script text="text/javascript" src="js/playtimescript.js">stars()</script>
+</html>

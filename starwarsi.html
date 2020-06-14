@@ -11,7 +11,7 @@
 </head>
 
 <body>
-  <header id="thisisafuckingheader">
+  <header>
     <h1>Welcome to our site</h1>
     <nav>
       <ul>
@@ -25,16 +25,14 @@
           <ul id="drop1_1" class="dropdown-content">
             <span>Prequel Trilogy</span>
             <li><a href="starwarsi.html">Star Wars I</a></li>
-            <span>First Trilogy</span>
-            <li><a href="https://myefrei.fr">Myefrei</a></li>
+            <!-- <span>First Trilogy</span>
+            <li><a href="https://myefrei.fr">Myefrei</a></li> -->
           </ul>
         </li>
         <li id="drop2" class="dropdown"><button id="mamif" onclick="location.href='animals.html'">Animaux</button>
         </li>
-        <li id="drop3" class="dropdown"><button id="gamertime" onclick="location.href='test.html'">A vous de
-            jouer</button></li>
-        <li id="drop4" class="dropdown"><a href="creators.html" tittle="Me contacter"><span id="whoru">Qui
-              sommes-nous</span></a></li>
+        <li id = "drop3" class = "dropdown"><button id = "gamertime" onclick = "location.href='playtime.html'">A vous de jouer</button></li>
+        <li id = "drop4" class = "dropdown"><a href = "creators.html"><span id = "whoru">Qui sommes-nous</span></a></li>
       </ul>
     </nav>
   </header>
@@ -43,7 +41,7 @@
     <nav>
       <ul><button id="repbut">For the Republic</button></ul>
       <ul><button id="csi">Fédération du Commerce</button></ul>
-      <!-- <ul><button id = "sithb">Animaux célestes</button></ul> -->
+      <ul><button id="neutr">Personnages neutres</button></ul>
 
     </nav>
 
@@ -56,13 +54,13 @@
 
 
     <div id="federation">
-      <li class="animal">Animaux Sur Terre</li>
+      <li class="animal">Fédération</li>
 
     </div>
-    <!-- <div id = "Celeste"> -->
-    <!-- <li class="animal">Animaux Du Ciel</li> -->
+    <div id="neutral">
+      <li class="animal">Personnages neutres</li>
 
-    <!-- </div> -->
+    </div>
     <div height="100%" id="myModal" class="modal" onclick="document.getElementById('myModal').style.display='none'">
       <img class="modal-content" id="img01">
       <div id="caption">
@@ -92,11 +90,12 @@
 <div id="allrights">© Projet Web 2020 - David GORGETTE Vincent GABRIL </div>
 <script type="text/javascript" src="js/swiscript.js">
 
-document.getElementById("drop0").addEventListener("mouseleave", mouseLeave0);
+  document.getElementById("drop0").addEventListener("mouseleave", mouseLeave0);
   document.getElementById("drop1").addEventListener("mouseleave", mouseLeave1);
   document.getElementById("drop3").addEventListener("onclick", mouseEnter2);
   document.getElementById("drop3").addEventListener("mouseleave", mouseLeave2);
-  document.getElementById("drop4").addEventListener("onclick", mouseEnter3);  
+  document.getElementById("drop4").addEventListener("onclick", mouseEnter3);
   document.getElementById("drop4").addEventListener("mouseleave", mouseLeave3);
-  </script>
+</script>
+
 </html>

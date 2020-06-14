@@ -1,19 +1,19 @@
 let bm = document.getElementById("accuei");
-  let dr = document.getElementById("drop0_1");
-  let b_msw = document.getElementById("sw");
-  let drmsw = document.getElementById("drop1_1");
-// bm.addEventListener("click", () => {
-//   if (getComputedStyle(dr).display != "none") {
-//     mouseLeave0();
-//   }
-//   else {
-//     leaveall();
+let dr = document.getElementById("drop0_1");
+let b_msw = document.getElementById("sw");
+let drmsw = document.getElementById("drop1_1");
+bm.addEventListener("click", () => {
+  if (getComputedStyle(dr).display != "none") {
+    mouseLeave0();
+  }
+  else {
+    leaveall();
 
-//     document.getElementById("drop0_1").style.display = "block";
-//     document.getElementById("drop0_1").style.borderRadius = "10px";
-//     document.getElementById("accuei").innerHTML = "Accueil <img width='20px' src='icons/round_keyboard_arrow_left_black_18dp.png'>";
-//   }
-// })
+    document.getElementById("drop0_1").style.display = "block";
+    document.getElementById("drop0_1").style.borderRadius = "10px";
+    document.getElementById("accuei").innerHTML = "Accueil <img width='20px' src='icons/round_keyboard_arrow_left_black_18dp.png'>";
+  }
+})
 
 
 function mouseLeave0() {
@@ -69,8 +69,7 @@ function mouseLeave3() {
 
 
 //LEAVE ALL
-function leaveall() 
-{
+function leaveall() {
   document.getElementById("drop0_1").style.display = "none";
   document.getElementById("drop1_1").style.display = "none";
   document.getElementById("accuei").innerHTML = "Accueil <img width='20px' src='icons/round_keyboard_arrow_down_black_18dp.png'>";
@@ -81,8 +80,7 @@ function leaveall()
   document.getElementById("Footer").style.bottom = "27px";
   document.getElementById("allrights").style.bottom = "0";
 }
-function replace_footer()
-{
+function replace_footer() {
   document.getElementById("Footer").style.bottom = "27px";
   document.getElementById("allrights").style.bottom = "0";
   document.getElementById("Footer").style.transition = "all 1s ease-out;";

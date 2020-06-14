@@ -67,36 +67,16 @@ nav ul button, nav ul a
     margin-right: auto;
     text-align: center;
     padding: 10px 10px;
-    /* position: relative; */
+
 
 }
-/* nav ul button:hover
-{
-    color: rgb(10, 167, 101);
-    background-color: rgb(55, 97, 173);
-    border-radius: 15px;
-    border-bottom: 2px solid gold;
-    padding: 10px 10px;
-    
-} */
 
 nav ul::after{
     content: "";
     justify-items: center;
-    /* display: table; */
     clear: both;
 }
 
-/* nav a
-{
-    display: block;
-    text-decoration: none;
-    background-color: inherit;
-    color: inherit;
-    border-bottom: 2px solid transparent;
-    padding: 10px 10px;
-    transition: all 0.6s ease-out;
-} */
 nav >ul li a:hover, ul button:hover
 {
     color: #9cc3ea;
@@ -111,7 +91,6 @@ nav >ul li a:hover, ul button:hover
 }
 .dropdown-content
 {
-    /* display: none; */
     box-shadow: 0px 1px 2px #CCC;
     color: #12538a;
     background-color: #9cc3ea;
@@ -122,22 +101,9 @@ nav >ul li a:hover, ul button:hover
     width: 100%;
     padding-inline-start: 0px;
     z-index: 1000;
-    /* transition-delay: 2s; */
 }
 
-/*A dÃ©comenter si pb JAVASCRIPT*/
-/* 
-nav > ul li:hover .dropdown-content 
-{
-    border-radius: 10px;
-    display: block;
-} */
 
-/*a enlever lors de tests de mises en page*/
-/* #thisisafuckingheader 
-{
-    margin-bottom: 100px;
-} */
 /**/
 .dropdown-content li
 {
@@ -339,13 +305,12 @@ ol div img:hover
     width: 80%;
     max-width: 700px;
 }
-.modal-content:hover /*ajouter pour annuler l'effet hover de la page*/
+.modal-content:hover 
 {
     opacity: unset;
     box-shadow: none;
 }
   
-  /* Caption of Modal Image */
 #caption {
     font-size: 25px;
     margin: auto;
@@ -358,7 +323,6 @@ ol div img:hover
     height: 150px;
 }
   
-  /* Add Animation */
 .modal-content, #caption {  
     -webkit-animation-name: zoom;
     -webkit-animation-duration: 0.4s;
@@ -376,27 +340,6 @@ ol div img:hover
     to {transform:scale(1)}
 } 
   
-  /* The Close Button
-.close {
-    position: absolute;
-    top: 15px;
-    right: 35px;
-    color: #f1f1f1;
-    font-size: 40px;
-    font-weight: bold;
-    transition: 0.3s;
-    cursor: pointer;/*ajouter par nous*/
-/* }
-.close:hover,
-.close:focus {
-    color: #bbb;
-    text-decoration: none;
-    cursor: pointer;
-} */ 
-
-
-/* 100% Image Width on Smaller Screens */
-
 @media only screen and (max-width: 700px) {
     .modal-content {
         width: 100%;
@@ -405,67 +348,6 @@ ol div img:hover
 
 /********/
 /*A Vous De Jouer*/
-
-#audioplayer{
-    margin-bottom: 5px;
-}
-
-/* Customize the label (the container) */
-.container {
-    display: block;
-    position: relative;
-    padding-left: 35px;
-    margin-bottom: 12px;
-    cursor: pointer;
-    font-size: 22px;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-  }
-  
-  /* Hide the browser's default checkbox */
-  .container input {
-    position: absolute;
-    opacity: 0;
-    cursor: pointer;
-    height: 0;
-    width: 0;
-  }
-  
-  /* Create a custom checkbox */
-  .checkmark {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 25px;
-    width: 25px;
-    background-color: #eee;
-    margin-bottom: 12px;
-  }
-  
-  /* On mouse-over, add a grey background color */
-  .container:hover input ~ .checkmark {
-    background-color: #ccc;
-  }
-
-  .container input:checked ~ .checkmark {
-    background-color: #2196F3;
-  } .container input:checked:hover ~ .checkmark {
-    background-color: #12538a;
-  }
-  
-  /* Create the checkmark/indicator (hidden when not checked) */
-  .checkmark:after {
-    content: "";
-    position: absolute;
-    display: none;
-  }
-    
-
-/* .btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus {
-    outline: 0;
-} */
 
 
 
@@ -501,14 +383,11 @@ ol div img:hover
 #Footer
 {
     font-size: 20px;
-    /* border-radius: 20px; */
     background-color:  #12538a;
     text-align: center;
-    position: relative;/*mettre js style position fixed quand rien afficher*/
+    position: relative;
     width: 100%;
     margin-top: 5vh;
-    /* margin-bottom: 27px; */
-    /* margin-top: 50vh; */
 }
 section
 {
@@ -523,23 +402,23 @@ footer a, footer a:visited
     color: #9cc3ea;
     font-weight: 100;
 }
-
+footer div section a img
+{
+    width: 20px;
+}
 #allrights
 {
     font-weight: bold;
     font-size: 20px;
-    /* border-radius: 20px; */
     background-color:  #124c80;
     color:#9cc3ea;
     text-align: center;
-    position: relative;/*mettre js style position fixed quand rien afficher*/
+    position: relative;
     width: 100%;
     bottom: 0;
-    /* height: auto; */
     padding-top: 5px;
     padding-bottom: 5px;
     margin-top: 0px;
-    /* margin-top: 50vh; */
 }
 
 

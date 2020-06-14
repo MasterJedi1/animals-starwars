@@ -6,12 +6,12 @@
   <meta name="viewport" content="width=device-width">
   <meta charset="utf-8">
   <link rel="stylesheet" href="style.css" type="text/css">
- 
+
   <link rel="shortcut icon" type="image/ico" href="icons/darthvader.png">
 </head>
 
 <body>
-  <header id="thisisafuckingheader">
+  <header>
     <h1>Welcome to our site</h1>
     <nav>
       <ul>
@@ -25,20 +25,24 @@
           <ul id="drop1_1" class="dropdown-content">
             <span>Prequel Trilogy</span>
             <li><a href="starwarsi.html">Star Wars I</a></li>
-            <span>First Trilogy</span>
-            <li><a href="https://myefrei.fr">Myefrei</a></li>
+            <!-- <span>First Trilogy</span>
+            <li><a href="https://myefrei.fr">Myefrei</a></li> -->
           </ul>
         </li>
         <li id="drop2" class="dropdown"><button id="mamif" onclick="location.href='animals.html'">Animaux</button>
         </li>
-        <li id="drop3" class="dropdown"><button id="gamertime" onclick="location.href='test.html'">A vous de
-            jouer</button></li>
-        <li id="drop4" class="dropdown"><a href="creators.html" title="Me contacter">
-            <span id="whoru">Quisommes-nous</span></a></li>
+        <li id = "drop3" class = "dropdown"><button id = "gamertime" onclick = "location.href='playtime.html'">A vous de jouer</button></li>
+        <li id = "drop4" class = "dropdown"><a href = "creators.html"><span id = "whoru">Qui sommes-nous</span></a></li>
       </ul>
     </nav>
   </header>
-
+  <ol>
+    <div>
+      <li>Pour le projet de Web en L2, David GORGETTE et Vincent GABRIL, deux étudiants en L2 Int 1 à Efrei Paris ont
+        réalisé un site portant sur leurs passions.</li>
+      <li>Ce Projet fut intégralement réalisé en HTML, CSS et Javascript, par eux et à partir de sources internet.</li>
+    </div>
+  </ol>
 </body>
 <footer id="Footer">
   <div>
@@ -68,4 +72,5 @@
   document.getElementById("drop4").addEventListener("onclick", mouseEnter3);
   document.getElementById("drop4").addEventListener("mouseleave", mouseLeave3);
 </script>
+
 </html>
