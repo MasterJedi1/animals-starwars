@@ -69,7 +69,7 @@
     .then(response => response.json())                                    	 
     .then(function (stats) {
         statistics_data = stats;
-        var republic_governor = statistics_data[0].StarWarsI[0].Republic[0].li
+        var republic_governor = statistics_data[0].StarWarsI[0].Republic[0].li;
         // console.log(republic_governor);
         var i = 0;
         for(i = 0; i < 5; i++)
@@ -142,6 +142,54 @@
      img.setAttribute("style","width:100%;max-width:300px");
      img.setAttribute("alt", obj.alt);
      document.getElementById("federation").appendChild(img);
+  }
+  let b_neutr = document.getElementById("neutr");
+  let dr_neutr = document.getElementById("neutral");
+  b_neutr.addEventListener("click", () =>{
+    if(getComputedStyle(dr_neutr).display != "none"){
+      // dr.style.display = "none";
+      leavesw();
+    }
+    else
+    {
+      leavesw();
+      document.getElementById('neutral').style.display = 'block';
+      replace_footer();
+      leaveall();
+    }
+  })
+
+  function getNeutral()
+  {
+    var statistics = "https://my-json-server.typicode.com/MasterJediKnight/animals-starwars/Page"
+    fetch(statistics)
+    .then(response => response.json())                                    	 
+    .then(function (stats) {
+        statistics_data = stats;
+        // console.log(republic_governor);
+        let i = 0;
+        for(i = 0; i < 3; i++)
+        {
+          createNeutral(statistics_data[0].StarWarsI[2].Neutral[i], statistics_data[0].StarWarsI[2].Neutral[i].li);
+        }
+    });
+  }
+  function createNeutral(element, subelement1)
+  {
+    let newli1 = document.createElement("li");
+    newli1.textContent = subelement1;
+    let divmod= document.getElementById("neutral");
+    divmod.appendChild(newli1);
+    toimage_neu(element);
+  }
+  function toimage_neu(obj) {
+     var img = new Image();
+     img.src = obj.image;
+     img.setAttribute("Id", "myImg");
+     img.setAttribute("onclick", "showImg(this)");
+     img.setAttribute("style","width:100%;max-width:300px");
+     img.setAttribute("alt", obj.alt);
+     document.getElementById("neutral").appendChild(img);
   }
   function mouseLeave0() {
     leaveall();
@@ -229,7 +277,7 @@
   }
   function leavesw()
   { 
-    // document.getElementById('Celeste').style.display = 'none';
+    document.getElementById('neutral').style.display = 'none';
     document.getElementById('federation').style.display = 'none';
     document.getElementById('Republic').style.display = 'none';
   } 
@@ -237,3 +285,4 @@
   window.onload = leavesw();
   window.onload = getRepublic();
   window.onload = getSeparatist();
+  window.onload = getNeutral();
