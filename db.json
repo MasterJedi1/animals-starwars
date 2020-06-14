@@ -5,25 +5,25 @@
                 {
                     "Republic": [
                         {
-                            "li": "Sheev Palpatine, senateur de Naboo. Il pousse la reine à poser au vote une motion contre l'actuel Chancellier Suprème et finit par prendre sa place",
+                            "li": "Sheev Palpatine, senateur de Naboo. Il pousse la reine a poser au vote une motion contre l'actuel Chancellier Supreme et finit par prendre sa place",
                             "image": "images/starwars1/palpatine_senator.png",
                             "alt" :"Sheev Palpatine",
                             "index": "1"
                         },
                         {
-                            "li": "Obi-Wan Kenobi, Padawan de Qui-Gon Jinn, Va vers Nabbo avec Palpatine. Ils Rencontrent des difficultées sur la route mais y survivent et sauvent la reine qui etait prisonnière",
+                            "li": "Obi-Wan Kenobi, Padawan de Qui-Gon Jinn, Va vers Nabbo avec Palpatine. Ils Rencontrent des difficultees sur la route mais y survivent et sauvent la reine qui etait prisonniere",
                             "image": "images/starwars1/obiwan.jpg",
                             "alt" :"Obiwan Kenobi, Padawan",
                             "index": "2"
                         },
                         {
-                            "li": "Anakin Skywalker, aussi connu comme le père de Luc Skywalker, est un gentil monsieur qui est allé du coté obscur",
+                            "li": "Anakin Skywalker, aussi connu comme le pere de Luc Skywalker, est un gentil monsieur qui est alle du cote obscur",
                             "image": "images/starwars1/anakin.jpg",
                             "alt":"Anakin Skywalker (young)",
                             "index": "3"
                         },
                         {
-                            "li": "Haut conseil Jedi: corps gouvernant l'Ordre Jedi, il est composé de douze Maîtres Jedi, dont un qui était le Grand Maître. Ils se réunissent dans la Tour du Haut Conseil du Temple Jedi sur Coruscant",
+                            "li": "Haut conseil Jedi: corps gouvernant l'Ordre Jedi, il est compose de douze Maitres Jedi, dont un qui etait le Grand Maitre. Ils se reunissent dans la Tour du Haut Conseil du Temple Jedi sur Coruscant",
                             "image": "images/starwars1/jedicouncil.jpeg",
                             "alt": "Haut Conseil Jedi (Temple Jedi Coruiscant)",                         
                             "index": "4"
@@ -33,19 +33,19 @@
                 {
                     "Separatist": [
                         {
-                            "li": "Une armée de droides appartant à la Fédération qui profite de l'mbourbement du Sénat pour instaurer un blocus sur Naboo pour sécuriser son commerce, elle envahit souvent des civilisations pour mettre leur population en esclavage",
+                            "li": "Une armee de droides appartant a la Federation qui profite de l'mbourbement du Senat pour instaurer un blocus sur Naboo pour securiser son commerce, elle envahit souvent des civilisations pour mettre leur population en esclavage",
                             "image": "images/starwars1/droidarmy.jpg",
-                            "alt" : "Armée de droides de la Fédération",
+                            "alt" : "Armee de droides de la Federation",
                             "index": "1"
                         },
                          {
-                            "li": "Sidious, un Sith Lord qui manipule la fédération du commerce pour parvenir à mettre un terme à l'Ordre Jedi, il influence et garde une main mise invisible sur les débats du Sénat",
+                            "li": "Sidious, un Sith Lord qui manipule la federation du commerce pour parvenir a mettre un terme a l'Ordre Jedi, il influence et garde une main mise invisible sur les debats du Senat",
                             "image": "images/starwars1/sidious.png",
                             "al":"Sidious, Sith Lord",
                             "index": "2"
                         },
                         {
-                            "li": "Darth Maul est l'Apprenti Sith de Darth Sidious, violent, féroce et considéré comme un adversaire redoutable, il 'meurt' découpé par Obi-Wan après avoir transpercé Qui-Gon Jinn.",
+                            "li": "Darth Maul est l'Apprenti Sith de Darth Sidious, violent, feroce et considere comme un adversaire redoutable, il 'meurt' decoupe par Obi-Wan apres avoir transperce Qui-Gon Jinn.",
                             "image": "images/starwars1/darthmaul.jpeg",
                             "al":"Darth Maul, Apprenti Sith de Darth Sidious",
                             "index": "3"
@@ -61,19 +61,19 @@
                 {
                     "Neutral": [
                         {
-                            "li": "Shmi Skywalker, la mère d'Anakin, esclave",
+                            "li": "Shmi Skywalker, la mere d'Anakin, esclave",
                             "image": "images/starwars1/shmiskywalker.jpg",
                             "alt":"Shmi Skywalker",
                             "index": "1"
                         },
                         {                       
-                            "li": "Qui-Gon Jinn, Maître Jedi, libre de pensée, et contrairement à d'autres Jedi, il valorise de vivre dans le moment présent comme le meilleur moyen de communier avec la Force. Il ffrontera Darth Maul sur Naboo et y trouvera la mort",
+                            "li": "Qui-Gon Jinn, Maitre Jedi, libre de pensee, et contrairement a d'autres Jedi, il valorise de vivre dans le moment present comme le meilleur moyen de communier avec la Force. Il ffrontera Darth Maul sur Naboo et y trouvera la mort",
                             "image": "images/starwars1/liam-neesn-as-qui-gon-jinn.jpeg",
                             "alt":"Qui-Gon Jinn, Maitre Jedi",
                             "index": "2"
                         },
                         {
-                            "li": "Toydarian Watto, propriétaire de la mère d'Anakin et d'Anakin, il  n'aime pas perdre dans les paris",
+                            "li": "Toydarian Watto, proprietaire de la mere d'Anakin et d'Anakin, il  n'aime pas perdre dans les paris",
                             "image": "images/starwars1/watto.jpg",
                             "alt":"Toydarian Watto",
                             "index": "3"
