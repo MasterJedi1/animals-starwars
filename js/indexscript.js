@@ -1,34 +1,26 @@
+let bm = document.getElementById("accuei");
+  let dr = document.getElementById("drop0_1");
+  let b_msw = document.getElementById("sw");
+  let drmsw = document.getElementById("drop1_1");
+// bm.addEventListener("click", () => {
+//   if (getComputedStyle(dr).display != "none") {
+//     mouseLeave0();
+//   }
+//   else {
+//     leaveall();
 
-document.getElementById("drop0").addEventListener("mouseleave", mouseLeave0);
-document.getElementById("drop1").addEventListener("mouseleave", mouseLeave1);
-document.getElementById("drop2").addEventListener("onclick", mouseEnter2);
-document.getElementById("drop2").addEventListener("mouseleave", mouseLeave2);
-
-document.getElementById("drop3").addEventListener("onclick", mouseEnter3);
-document.getElementById("drop3").addEventListener("mouseleave", mouseLeave3);
-
-let b_m = document.getElementById("acc");
-let dr = document.getElementById("drop0_1");
-b_m.addEventListener("click", () => {
-  if (getComputedStyle(dr).display != "none") {
-    mouseLeave0();
-  }
-  else {
-    leaveall();
-
-    document.getElementById("drop0_1").style.display = "block";
-    document.getElementById("drop0_1").style.borderRadius = "10px";
-    document.getElementById("acc").innerHTML = "Accueil <img width='20px' src='icons/round_keyboard_arrow_left_black_18dp.png'>";
-  }
-})
+//     document.getElementById("drop0_1").style.display = "block";
+//     document.getElementById("drop0_1").style.borderRadius = "10px";
+//     document.getElementById("accuei").innerHTML = "Accueil <img width='20px' src='icons/round_keyboard_arrow_left_black_18dp.png'>";
+//   }
+// })
 
 
 function mouseLeave0() {
   leaveall();
-  document.getElementById("acc").innerHTML = "Accueil <img width='20px' src='icons/round_keyboard_arrow_down_black_18dp.png'>";
+  document.getElementById("accuei").innerHTML = "Accueil <img width='20px' src='icons/round_keyboard_arrow_down_black_18dp.png'>";
 }
-let b_msw = document.getElementById("sw");
-let drmsw = document.getElementById("drop1_1");
+
 b_msw.addEventListener("click", () => {
   if (getComputedStyle(drmsw).display != "none") {
     mouseLeave1();
@@ -60,7 +52,7 @@ function mouseEnter2() {
 }
 function mouseLeave2() {
   leaveall();
-  document.getElementById("gamertime").innerHTML = "A vous de jouer ↓";
+  document.getElementById("gamertime").innerHTML = "A vous de jouer <img width='20px' src='icons/round_keyboard_arrow_down_black_18dp.png'>";
   // document.getElementById("Footer").style.transitionDuration = "0.3s";
   // document.getElementById("Footer").style.transform = "translate(0px, 0px)";
 }
@@ -72,7 +64,7 @@ function mouseEnter3() {
 }
 function mouseLeave3() {
   leaveall();
-  document.getElementById("whoru").innerHTML = "Qui sommes-nous ↓";
+  document.getElementById("whoru").innerHTML = "Qui sommes-nous <img width='20px' src='icons/round_keyboard_arrow_down_black_18dp.png'>";
 }
 
 
@@ -81,7 +73,7 @@ function leaveall()
 {
   document.getElementById("drop0_1").style.display = "none";
   document.getElementById("drop1_1").style.display = "none";
-  document.getElementById("acc").innerHTML = "Accueil <img width='20px' src='icons/round_keyboard_arrow_down_black_18dp.png'>";
+  document.getElementById("accuei").innerHTML = "Accueil <img width='20px' src='icons/round_keyboard_arrow_down_black_18dp.png'>";
   document.getElementById("sw").innerHTML = "Star Wars <img width='20px' src='icons/round_keyboard_arrow_down_black_18dp.png'>";
   document.getElementById("mamif").innerHTML = "Animaux <img width='20px' src='icons/round_keyboard_arrow_down_black_18dp.png'>";
   document.getElementById("gamertime").innerHTML = "A vous de jouer <img width='20px' src='icons/round_keyboard_arrow_down_black_18dp.png'>";

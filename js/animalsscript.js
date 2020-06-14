@@ -1,11 +1,4 @@
 
-  document.getElementById("drop0").addEventListener("mouseleave", mouseLeave0);
-  document.getElementById("drop1").addEventListener("mouseleave", mouseLeave1);
-  document.getElementById("drop3").addEventListener("onclick", mouseEnter2);
-  document.getElementById("drop3").addEventListener("mouseleave", mouseLeave2);
-  document.getElementById("drop4").addEventListener("onclick", mouseEnter3);
-  document.getElementById("drop4").addEventListener("mouseleave", mouseLeave3);
-
   let b_m = document.getElementById("acc");
   let dr = document.getElementById("drop0_1");
   b_m.addEventListener("click", () => {
