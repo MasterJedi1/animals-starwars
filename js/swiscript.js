@@ -129,7 +129,7 @@
         let i = 0;
         for(i = 0; i < 4; i++)
         {
-          createSeparatist(statistics_data[0].StarWarsI[1].Separatist[0], statistics_data[0].StarWarsI[1].Separatist[0].li);
+          createSeparatist(statistics_data[0].StarWarsI[1].Separatist[i], statistics_data[0].StarWarsI[1].Separatist[i].li);
         }
     });
   }
