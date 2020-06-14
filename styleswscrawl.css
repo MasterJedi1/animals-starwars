@@ -1,0 +1,270 @@
+/* nav {
+    width: 100%;
+    margin: 0 auto;
+    background-color: steelblue;
+    position: sticky;
+    top: 0px;
+    border-radius: 10px;
+}
+
+nav ul {
+    padding-inline-start: 0px;
+    list-style-type: none;
+}
+
+nav ul li {
+    float: left;
+    width: 25%;
+    text-align: center;
+    position: relative;
+    /* display: inline-block; */
+/* }
+
+nav ul::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+nav a {
+    display: block;
+    text-decoration: none;
+    color: rgb(3, 85, 3);
+    border-bottom: 2px solid transparent;
+    padding: 10px 10px;
+}
+
+nav a:hover {
+    color: rgb(10, 167, 101);
+    background-color: rgb(55, 97, 173);
+    border-radius: 15px;
+    border-bottom: 2px solid gold;
+}
+
+.dropdown-content {
+    display: none;
+    box-shadow: 0px 1px 2px #CCC;
+    background-color: mediumaquamarine;
+    position: absolute;
+    width: 100%;
+    padding-inline-start: 0px;
+    z-index: 1000;
+}
+
+nav>ul li:hover .dropdown-content {
+    border-radius: 10px;
+    display: block;
+}
+
+.dropdown-content li {
+    list-style: none;
+    float: none;
+    width: 100%;
+    /* text-align: left; */
+/* }
+
+.dropdown-content a {
+    border-bottom: none;
+}
+
+.dropdown-content a:hover {
+    border-radius: 20px;
+    border-bottom: none;
+    background-color: grey;
+    color: rgb(55, 97, 173); */
+/* } */
+
+/* .dropdown>a::after { */
+    /* url("down_arrow.jpg") */
+    /* content:" ↓"; */
+    /* font-size: 12px; */
+/* } */
+
+/* #photos_creators { */
+    /* text-align: center;
+    position: relative;
+}
+
+#creator_Master1 {
+    vertical-align: middle;
+    margin-right: 50px;
+    border-radius: 15px;
+}
+
+#creator_Master2 {
+    vertical-align: middle;
+    margin-right: 10px;
+    border-radius: 15px;
+}
+
+footer {
+    border-radius: 20px;
+    background-color: steelblue;
+    text-align: center;
+    margin-top: 50vh;
+}
+
+footer a {
+    text-decoration: none;
+} */ 
+
+
+/* .dropbtn {
+    background-color: lightskyblue;
+    color: white;
+    padding: 2px;
+    font-size: 20px;
+    border: none;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: lightgrey;
+    min-width: fit-content;
+    z-index: 1;
+}
+.dropdown-content a {
+    color: royalblue;
+    padding:2Px2Px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {background-color: white;}
+.dropdown:hover.dropdown-content {display: block;}
+.dropdown:hover.dropbtn {background-color: grey;} */
+
+
+/* Center it, set the color, size and hide the text */
+
+/* Center it, set the color, size and hide the text */
+.intro {
+    /* text-align: center; */
+    margin: auto;
+    top: 45%;
+    left:35%;
+
+
+    position: absolute;
+    margin: 0;
+    z-index: 1;
+    animation: intro 6s ease-out 1s;
+    color: rgb(75, 213, 238);
+    font-weight: 400;
+    font-size: 300%;
+    opacity: 0;
+}
+
+@keyframes intro {
+    0% {
+        opacity: 0;
+    }
+    20% {
+        opacity: 1;
+    }
+    90% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+body {
+    margin: 0;
+    background-color: black;
+  }
+  
+  .star {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    background-color: white;
+  }
+
+p {
+    color: #FFFF82;
+}
+
+/* Set the font, lean the board, position it */
+#board {
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    transform: perspective(300px) rotateX(25deg);
+    transform-origin: 50% 100%;
+    text-align: justify;
+    position: absolute;
+    margin-left: -9em;
+    font-weight: bold;
+    overflow: hidden;
+    font-size: 350%;
+    height: 50em;
+    width: 18em;
+    bottom: 0;
+    left: 50%;
+}
+
+#board:after {
+    position: absolute;
+    content: ' ';
+    bottom: 60%;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+/* Set the scrolling animation and position it */
+#content {
+    animation: scroll 100s linear 16s;
+    position: absolute;
+    top: 100%;
+}
+
+#title, #subtitle {
+    text-align: center;
+}
+
+@keyframes scroll {
+    0% {
+        top: 100%;
+    }
+    100% {
+        top: -170%;
+    }
+}
+
+/* Set the animation & hide the logo */
+/* Set the animation & hide the logo */
+.logo {    
+    position: absolute;
+    top: 20%;
+    left: 45%;
+    z-index: 1;
+    margin: auto;
+    animation: logo 9s ease-out 9s;
+    opacity: 0;
+}
+
+.logo svg {
+    width: inherit;
+}
+
+/* Scale the logo down and maintain it centered */
+@keyframes logo {
+    0% {
+        width: 18em;        
+        transform: scale(2.75);
+        opacity: 1;
+    }
+    50% {
+        opacity: 1;
+        width: 18em;      
+    }
+    100% {
+        opacity: 0;
+        transform: scale(0.1);
+        width: 18em;        
+    }
+}
