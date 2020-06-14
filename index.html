@@ -1,58 +1,71 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Animals & Star Wars</title>
-    <meta name="viewport" content="width=device-width">
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="style.css" type="text/css">
-    <script type = "text/javascript" src="js/indexscript.js"></script>
-    <link rel="shortcut icon" type="image/ico" href="icons/darthvader.png">
-  </head>
-  <body>
-    <header id="thisisafuckingheader">
-      <h1>Welcome to our site</h1>
-      <nav>
-        <ul>
-          <li id="drop0" class="dropdown"><button id="acc">Accueil</button>
-            <ul id="drop0_1" class="dropdown-content">
-              <li><a href="index.html">Accueil</a></li>
-              <li><a href="https://myefrei.fr">Myefrei</a></li>
-            </ul>
-          </li>
-          <li id="drop1" class="dropdown"><button id="sw">Star Wars</button>
-            <ul id="drop1_1" class="dropdown-content">
-              <span>Prequel Trilogy</span>
-              <li><a href="starwarsi.html">Star Wars I</a></li>
-              <span>First Trilogy</span>
-              <li><a href="https://myefrei.fr">Myefrei</a></li>
-            </ul>
-          </li>
-          <li id="drop2" class="dropdown"><button id="mamif" onclick="location.href='animals.html'">Animaux</button>
-          </li>
-          <li id="drop3" class="dropdown"><button id="gamertime" onclick="location.href='test.html'">A vous de
-              jouer</button></li>
-          <li id="drop4" class="dropdown"><a href="creators.html" tittle="Me contacter">
-              <span id="whoru">Quisommes-nous</span></a></li>
-        </ul>
-        </nav>
-      </header>
-     
-  </body>
-  <footer id = "Footer">
-    <div>
-      <section>
-       <img src = "icons/baseline_info_footerb_18dp.png"><br/>
-        <span><a href = "creators.html">Qui sommes-nous ?</a>
 
-        </span>
-      </section>
-      <section>
-        <a href = "https://www.youtube.com/channel/UC8CbFnDTYkiVweaz8y9wd_Q"><img src="images/youtube icon.png" alt="youtube"> </a>
-        <a href="https://www.facebook.com"><img src="images/fb icon.png" alt="facedebouc"></a>
-        <a href="https://www.twitter.com"><img src="images/twitter icon.png" alt="Twitter"></a>
-        <a href="https://discord.com/channels/@me"><img src="images/discord icon.png" alt="Discord"></a>
-        </section>
-    </div>
-  </footer>
-  <div id = "allrights">© Projet Web - David GORGETTE Vincent GABRIL </div>
-  </html>
+<head>
+  <title>Animals & Star Wars</title>
+  <meta name="viewport" content="width=device-width">
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css" type="text/css">
+ 
+  <link rel="shortcut icon" type="image/ico" href="icons/darthvader.png">
+</head>
+
+<body>
+  <header id="thisisafuckingheader">
+    <h1>Welcome to our site</h1>
+    <nav>
+      <ul>
+        <li id="drop0" class="dropdown"><button id="accuei">Accueil</button>
+          <ul id="drop0_1" class="dropdown-content">
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="https://myefrei.fr">Myefrei</a></li>
+          </ul>
+        </li>
+        <li id="drop1" class="dropdown"><button id="sw">Star Wars</button>
+          <ul id="drop1_1" class="dropdown-content">
+            <span>Prequel Trilogy</span>
+            <li><a href="starwarsi.html">Star Wars I</a></li>
+            <span>First Trilogy</span>
+            <li><a href="https://myefrei.fr">Myefrei</a></li>
+          </ul>
+        </li>
+        <li id="drop2" class="dropdown"><button id="mamif" onclick="location.href='animals.html'">Animaux</button>
+        </li>
+        <li id="drop3" class="dropdown"><button id="gamertime" onclick="location.href='test.html'">A vous de
+            jouer</button></li>
+        <li id="drop4" class="dropdown"><a href="creators.html" title="Me contacter">
+            <span id="whoru">Quisommes-nous</span></a></li>
+      </ul>
+    </nav>
+  </header>
+
+</body>
+<footer id="Footer">
+  <div>
+    <section>
+      <img src="icons/baseline_info_footerb_18dp.png"><br />
+      <span><a href="creators.html">Qui sommes-nous ?</a>
+
+      </span>
+    </section>
+    <section>
+      <a href="https://www.youtube.com/channel/UC8CbFnDTYkiVweaz8y9wd_Q"><img src="icons/youtube icon.png"
+          alt="youtube"> </a>
+      <a href="https://www.facebook.com"><img src="icons/fb icon.png" alt="facedebouc"></a>
+      <a href="https://www.twitter.com"><img src="icons/twitter icon.png" alt="Twitter"></a>
+      <a href="https://discord.com/channels/@me"><img src="icons/discord icon.png" alt="Discord"></a>
+    </section>
+  </div>
+</footer>
+<div id="allrights">© Projet Web - David GORGETTE Vincent GABRIL </div>
+<script type="text/javascript" src="js/indexscript.js">
+
+  document.getElementById("drop0").addEventListener("mouseleave", mouseLeave0);
+  document.getElementById("drop1").addEventListener("mouseleave", mouseLeave1);
+  document.getElementById("drop3").addEventListener("onclick", mouseEnter2);
+  document.getElementById("drop3").addEventListener("mouseleave", mouseLeave2);
+
+  document.getElementById("drop4").addEventListener("onclick", mouseEnter3);
+  document.getElementById("drop4").addEventListener("mouseleave", mouseLeave3);
+</script>
+</html>
