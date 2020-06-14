@@ -1,0 +1,547 @@
+*{ margin: 0; padding:0; box-sizing: border-box; font-family: "Roboto, Helvetica, Arial, sans-serif"; }
+*.btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus {
+    outline: 0;
+}
+html
+{
+    border: none;
+    background-color: #6aa0cc;
+    
+    /* #B47846 */
+}
+
+header{
+    text-align: center;
+    padding-left:2px;
+    padding-right: 2px;
+    justify-content: center;
+    background-color: #4682b4;
+    background-position: all;
+}
+nav{
+    padding-bottom: 20px;
+    justify-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    margin: 0 auto;
+    background-color: #6aa0cc;
+    position: sticky;
+    top: 0px;
+    /* border-radius: 10px; */
+    z-index: 999;
+}
+nav ul
+{
+    margin: 0;
+    margin: 0;
+    text-align: center;
+    /* display: block; */
+    position: relative;
+    padding-inline-start: 0px;
+    list-style-type: none;
+    z-index: 1000;
+}
+
+nav ul li
+{
+    justify-content: center;
+    width: 25%;
+    /* margin-left: auto;
+    margin-right: auto; */
+    border-radius: 8px 8px;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    z-index: 1000;
+}
+
+nav ul button, nav ul a
+{
+    text-decoration: none;
+    font-size: 25px;
+    color: #12538a;
+    background-color: #9cc3ea;
+    border: none;
+    border-bottom: 2px solid transparent;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 10px 10px;
+    /* position: relative; */
+
+}
+/* nav ul button:hover
+{
+    color: rgb(10, 167, 101);
+    background-color: rgb(55, 97, 173);
+    border-radius: 15px;
+    border-bottom: 2px solid gold;
+    padding: 10px 10px;
+    
+} */
+
+nav ul::after{
+    content: "";
+    justify-items: center;
+    /* display: table; */
+    clear: both;
+}
+
+/* nav a
+{
+    display: block;
+    text-decoration: none;
+    background-color: inherit;
+    color: inherit;
+    border-bottom: 2px solid transparent;
+    padding: 10px 10px;
+    transition: all 0.6s ease-out;
+} */
+nav >ul li a:hover, ul button:hover
+{
+    color: #9cc3ea;
+    background-color: #12538a;
+    border-radius: 15px;
+    border-bottom: 2px solid gold;
+    transition: all 0.3s ease-out;
+}
+.dropdown
+{
+    width: unset;
+}
+.dropdown-content
+{
+    /* display: none; */
+    box-shadow: 0px 1px 2px #CCC;
+    color: #12538a;
+    background-color: #9cc3ea;
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    border-radius: 10px;
+    width: 100%;
+    padding-inline-start: 0px;
+    z-index: 1000;
+    /* transition-delay: 2s; */
+}
+
+/*A dÃ©comenter si pb JAVASCRIPT*/
+/* 
+nav > ul li:hover .dropdown-content 
+{
+    border-radius: 10px;
+    display: block;
+} */
+
+/*a enlever lors de tests de mises en page*/
+/* #thisisafuckingheader 
+{
+    margin-bottom: 100px;
+} */
+/**/
+.dropdown-content li
+{
+    background-color: inherit;
+    list-style: none;
+    text-align: center;
+    border-radius: 10px;
+    width: 100%;
+    position: relative;
+    z-index: 1000;
+}
+
+.dropdown-content li a,.dropdown-content li button
+{
+    font-size: 25px;
+    /* font-weight: bold; */
+    background-color: inherit;
+    transition: all 1s ease-out;
+    display: inline-block;
+    width: 100%;
+    border-radius: 10px;
+    border-bottom: none;
+    position : relative;
+    z-index:1000;
+}
+
+.dropdown-content li:after
+{
+    position: absolute;
+    z-index: inherit;
+}
+.dropdown-content li a:hover,.dropdown-content li button:hover,ol nav ul button:hover
+{
+    border-radius: 20px;
+    border-bottom: none;
+    color: #9cc3ea;
+    background-color: #12538a;   
+}
+
+.dropdown > a::after
+{
+    font-size: 25px;
+}
+
+
+/*******/
+/*ANIMALS*/
+ol{
+    z-index: 1;
+    padding-bottom: 65px;
+}
+ol div, ol nav
+{
+    max-width: 100%;
+    text-align: center;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    z-index:1;
+    margin-bottom: 10px;
+}
+ol nav{
+    z-index: 990;
+}
+ol nav ul
+{
+    display: inline-block;
+    text-align: center;
+}
+ol nav ul button
+{
+    /* font-style: italic; */
+    font-variant: small-caps;
+    font-size: 24px;
+    transition: all 1s ease-out;
+    display: inline-block;
+    width: 100%;
+    border-radius: 10px;
+    border-bottom: none;
+    position : relative;
+    z-index:990;
+}
+ol nav ul button:focus, nav ul button{
+    outline: 0;
+}
+ol li, ol li button
+{
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    text-align: center;
+    max-width: 100%;
+    z-index: 1;
+}
+ol div li,ol li {
+    font-size: 25px;
+    font-family: verdana, Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique 80deg;
+    color: #12538a;
+    border: #4682b4 4px solid;
+    border-radius: 12px;
+    cursor: pointer;
+    text-align:center;
+    display: inline-block;
+    position: relative;
+    z-index: inherit;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-left: 25%;
+    margin-right: 25%;
+    max-width: 750px;
+    padding-right: 0.5%;
+    padding-left: 0.5%;
+    z-index: 1;
+}
+ol div li:hover {
+    background-color:  #4682b4;
+    border: #12538a 4px solid;
+    color: #9cc3ea;
+}
+ol div img
+{
+    z-index: 1;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    margin-left: 25%;
+    text-align: center;
+    padding-right: 0.5%;
+    padding-left: 0.5%;
+    margin-right: 25%;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+    position: relative;
+    z-index: inherit;
+    
+}
+ol div img:hover
+{
+    box-shadow: #4682b4 2px 3px 0px;
+    opacity: 0.65;
+}
+
+
+
+
+
+
+/******/
+/* The Modal (background) */
+/* tiré de https://www.w3schools.com/howto/howto_css_modal_images.asp */
+
+.imgclick {
+    text-align: center;
+    display: block;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: absolute;
+    /* Stay in place */
+    z-index: 1001;
+    /* Sit on top */
+    padding-top: 100px;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.9);
+    /* Black w/ opacity */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-bottom: 50%;
+    padding-top: 50%;
+}
+  
+  /* Modal Content (image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+.modal-content:hover /*ajouter pour annuler l'effet hover de la page*/
+{
+    opacity: unset;
+    box-shadow: none;
+}
+  
+  /* Caption of Modal Image */
+#caption {
+    font-size: 25px;
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #6aa0cc;
+    padding: 10px 0;
+    height: 150px;
+}
+  
+  /* Add Animation */
+.modal-content, #caption {  
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.4s;
+    animation-name: zoom;
+    animation-duration: 0.4s;
+}
+  
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+  
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+} 
+  
+  /* The Close Button
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+    cursor: pointer;/*ajouter par nous*/
+/* }
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+} */ 
+
+
+/* 100% Image Width on Smaller Screens */
+
+@media only screen and (max-width: 700px) {
+    .modal-content {
+        width: 100%;
+    }
+}
+
+/********/
+/*A Vous De Jouer*/
+
+#audioplayer{
+    margin-bottom: 5px;
+}
+
+/* Customize the label (the container) */
+.container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* Hide the browser's default checkbox */
+  .container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  /* Create a custom checkbox */
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    margin-bottom: 12px;
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .container:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+
+  .container input:checked ~ .checkmark {
+    background-color: #2196F3;
+  } .container input:checked:hover ~ .checkmark {
+    background-color: #12538a;
+  }
+  
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+    
+
+/* .btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus {
+    outline: 0;
+} */
+
+
+
+/*CREATORS*/
+#photos_creators
+{
+    text-align: center;
+    position: relative;
+    margin-bottom: 15px;
+}
+
+
+
+#creator_Master1
+{
+    vertical-align: middle;
+    margin-right: 50px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+#creator_Master2
+{
+    vertical-align: middle;
+    margin-right: 10px;
+    border-radius: 15px;
+}
+
+
+
+
+/***********/
+/*FOOTER*/
+#Footer
+{
+    font-size: 20px;
+    /* border-radius: 20px; */
+    background-color:  #12538a;
+    text-align: center;
+    position: relative;/*mettre js style position fixed quand rien afficher*/
+    width: 100%;
+    margin-top: 5vh;
+    /* margin-bottom: 27px; */
+    /* margin-top: 50vh; */
+}
+section
+{
+    background-color: inherit;
+    padding-bottom: 5px;
+    margin-bottom: 0em;
+}
+footer a, footer a:visited
+{
+    font-size: 21px;
+    text-decoration: none;
+    color: #9cc3ea;
+    font-weight: 100;
+}
+
+#allrights
+{
+    font-weight: bold;
+    font-size: 20px;
+    /* border-radius: 20px; */
+    background-color:  #124c80;
+    color:#9cc3ea;
+    text-align: center;
+    position: relative;/*mettre js style position fixed quand rien afficher*/
+    width: 100%;
+    bottom: 0;
+    /* height: auto; */
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 0px;
+    /* margin-top: 50vh; */
+}
+
+
+
+

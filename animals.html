@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Animals & Star Wars</title>
+  <meta name="viewport" content="width=device-width">
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="ll.css" type="text/css">
+  <link rel="shortcut icon" type="image/ico" href="icons/darthvader.png">
+</head>
+
+<body>
+  <header id="thisisafuckingheader">
+    <h1>Welcome to our site</h1>
+    <nav>
+      <ul>
+        <li id="drop0" class="dropdown"><button id="acc">Accueil</button>
+          <ul id="drop0_1" class="dropdown-content">
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="https://myefrei.fr">Myefrei</a></li>
+          </ul>
+        </li>
+        <li id="drop1" class="dropdown"><button id="sw">Star Wars</button>
+          <ul id="drop1_1" class="dropdown-content">
+            <span>First Trilogy</span>
+            <li><a href="starwarsi.html">Star Wars I</a></li>
+            <li><a href="https://myefrei.fr">Myefrei</a></li>
+          </ul>
+        </li>
+        <li id="drop2" class="dropdown"><button id="mamif" onclick="location.href='animals.html'">Animaux</button>
+        </li>
+        <li id="drop3" class="dropdown"><button id="gamertime" onclick="location.href='test.html'">A vous de
+            jouer</button></li>
+        <li id="drop4" class="dropdown"><a href="creators.html" tittle="Me contacter">
+            <span id="whoru">Quisommes-nous</span></a></li>
+      </ul>
+    </nav>
+  </header>
+  <ol id="textAnimals">
+
+    <nav>
+      <ul class="animal"><button id="anim_sea">Animaux maritimes</button></ul>
+      <ul class="animal"><button id="anim_earth">Animaux terrestres</button></ul>
+      <ul class="animal"><button id="anim_sky">Animaux célestes</button></ul>
+
+    </nav>
+
+
+    <div id="maritime">
+
+      <li class="animal">Animaux De La Mer</li>
+      <li>Le plus rapide : Le Poisson Voilier allant jusqu’à 110km/h. Il est de la même espèce que l’Espada. Son nom
+        vient de sa grande nageoire en forme de voile.</li>
+
+      <img id="myImg" onclick="showImg(this)" src="images/animals/poisson voilier.jpg"
+        style="width:100%;max-width:300px">
+
+      <li>Le plus dangereux : Le Grand Requin Blanc, une taille de 6m de longueur, chasse généralement des tortues,
+        thons et crétacés. Chasse le sang. Cette espèce est menacée par la surpêche et par la pollution.</li>
+
+
+      <img id="myImg" onclick="showImg(this)" src="images/animals/grand requin blanc.jpg"
+        style="width:100%;max-width:300px">
+
+      <li>Le favori : Le dauphin ; il est intelligent et capable de communiquer par ultrason. Il ressemble à un requin
+        mais semble plus apprécié et plus gentil.</li>
+
+      <img id="myImg" onclick="showImg(this)" src="images/animals/dauphin.jpg" style="width:100%;max-width:300px">
+    </div>
+
+
+    <div id="terrestre">
+      <li class="animal">Animaux Sur Terre</li>
+      <li>Le plus rapide : Le Guépard, il peut aller jusqu’à environ 120km/h lors de ses chasses, il peut courir jusqu’à
+        en mourir (mais sa vitesse diminue petit à petit). C’est un félin sauvage qui chasse généralement par groupe de
+        2 ou 3. Il ressemble à un léopard avec des larmes noires.</li>
+      <!-- <div>    -->
+      <img id="myImg" onclick="showImg(this)" src="images/animals/guepard.jpg" alt="Guepard"
+        style="width:100%;max-width:300px">
+      <!-- </div> -->
+
+      <li>Le plus dangereux : Le Cobra Royal, il a un des venins les plus dangereux du monde. Ses morsures sont
+        mortelles, il vaut mieux éviter de se faire mordre. Il a une sorte de cape.</li>
+
+      <img id="myImg" onclick="showImg(this)" src="images/animals/cobra royal.jpg" alt="Cobra Royal"
+        style="width:100%;max-width:300px">
+
+      <li>Le favori : Le Loup, c’est un canidé connu aussi comme le cousin du chien. Il fascine les humains qui le
+        mettent dans leurs mythes, légendes et qui s’en inspirent même dans l’art. Ils vivent en meute et se
+        transforment les soirs de pleine lune (restez chez vous).</li>
+
+      <img id="myImg" onclick="showImg(this)" src="images/animals/loup.jpg" style="width:100%;max-width:300px">
+
+    </div>
+
+
+    <div id="celeste">
+      <li class="animal">Animaux Du Ciel</li>
+
+      <li>Le plus rapide : Le Faucon Pèlerin est l’animal le plus rapide au monde, il peut faire des descentes en piqué
+        lors de ses chasse jusqu’à 390km/h. Il a des yeux perçants et voit très bien de loin</li>
+
+      <img id="myImg" onclick="showImg(this)" src="images/animals/faucon pelerin.jpg" alt="Faucon Pélerin" style="width:100%;max-width:300px">
+
+      <li>Le plus dangereux : Le Moustique est la cause de plus de 725000 morts par an, il est à l’origine d’un grand
+        nombre d’épidémies et ne sert à rien à pas à causer des catastrophes.</li>
+
+      <img id="myImg" onclick="showImg(this)" src="images/animals/moustique.jpg" style="width:100%;max-width:300px">
+
+      <li>Le favori : Le Condor est un des oiseaux les plus majestueux, connu comme étant le plus grand oiseau volant du
+        monde avec plus de 3m de longueur, il pèse de 7.5 à 15kg.</li>
+
+      <img id="myImg" onclick="showImg(this)" src="images/animals/condor.jpg" style="width:100%;max-width:300px">
+    </div>
+    <div height="100%" id="myModal" class="modal" onclick="document.getElementById('myModal').style.display='none'">
+      <img class="modal-content" id="img01">
+      <div id="caption">
+
+      </div>
+    </div>
+
+  </ol>
+</body>
+<footer id="Footer">
+  <div>
+    <section>
+      <img src="icons/baseline_info_footerb_18dp.png"><br />
+      <span><a href="creators.html">Qui sommes-nous ?</a>
+
+      </span>
+    </section>
+  </div>
+</footer>
+<div id="allrights">© Projet Web - David GORGETTE Vincent GABRIL </div>
+<script type="text/javascript">
+
+  document.getElementById("drop0").addEventListener("mouseleave", mouseLeave0);
+  document.getElementById("drop1").addEventListener("mouseleave", mouseLeave1);
+  document.getElementById("drop3").addEventListener("onclick", mouseEnter2);
+  document.getElementById("drop3").addEventListener("mouseleave", mouseLeave2);
+  document.getElementById("drop4").addEventListener("onclick", mouseEnter3);
+  document.getElementById("drop4").addEventListener("mouseleave", mouseLeave3);
+
+  let b_m = document.getElementById("acc");
+  let dr = document.getElementById("drop0_1");
+  b_m.addEventListener("click", () => {
+    if (getComputedStyle(dr).display != "none") {
+      mouseLeave0();
+    }
+    else {
+
+      leaveall();
+      document.getElementById("drop0_1").style.display = "block";
+      document.getElementById("drop0_1").style.borderRadius = "10px";
+      document.getElementById("acc").innerHTML = "Accueil <img width='20px' src='icons/round_keyboard_arrow_left_black_18dp.png'>";
+    }
+  })
+  let b_msw = document.getElementById("sw");
+  let drmsw = document.getElementById("drop1_1");
+  b_msw.addEventListener("click", () => {
+    if (getComputedStyle(drmsw).display != "none") {
+      mouseLeave1();
+    }
+    else {
+
+      leaveall();
+      document.getElementById("drop1_1").style.display = "block";
+      document.getElementById("drop1_1").style.borderRadius = "10px";
+      document.getElementById("sw").innerHTML = "Star Wars <img width='20px' src='icons/round_keyboard_arrow_left_black_18dp.png'>";
+    }
+  })
+  let b_anim_sky = document.getElementById("anim_sky");
+  let dr_anim_sky = document.getElementById("celeste");
+  b_anim_sky.addEventListener("click", () => {
+    if (getComputedStyle(dr_anim_sky).display != "none") {
+      // dr.style.display = "none";
+      leaveanimal();
+    }
+    else {
+      leaveanimal();
+      document.getElementById('celeste').style.display = 'block';
+      document.getElementById('terrestre').style.display = 'none';
+      document.getElementById('maritime').style.display = 'none';
+      leaveall();
+    }
+  })
+  let b_anim_earth = document.getElementById("anim_earth");
+  let dr_anim_earth = document.getElementById("terrestre");
+  b_anim_earth.addEventListener("click", () => {
+    if (getComputedStyle(dr_anim_earth).display != "none") {
+      // dr.style.display = "none";
+      leaveanimal();
+    }
+    else {
+      leaveanimal();
+      document.getElementById("Footer").style.bottom = "27px";
+      document.getElementById("allrights").style.bottom = "0";
+      document.getElementById('terrestre').style.display = 'block';
+      leaveall();
+    }
+  })
+  let b_anim_sea = document.getElementById("anim_sea");
+  let dr_anim_sea = document.getElementById("maritime");
+  b_anim_sea.addEventListener("click", () => {
+    if (getComputedStyle(dr_anim_sea).display != "none") {
+      // dr.style.display = "none";
+      leaveanimal();
+      console.log("heck");
+    }
+    else {
+      leaveanimal();
+      document.getElementById("Footer").style.bottom = "27px";
+      document.getElementById("allrights").style.bottom = "0";
+      document.getElementById('maritime').style.display = 'block';
+      leaveall();
+    }
+  })
+
+  function mouseLeave0() {
+    leaveall();
+
+    // document.getElementById("Footer").style.transitionDuration = "0.6s";
+    // document.getElementById("Footer").style.transform = "translate(0px, 0px)";
+    // document.getElementById("textAnimals").style.transform = "translate(0px 0px)";
+    document.getElementById("acc").innerHTML = "Accueil <img width='20px' src='icons/round_keyboard_arrow_down_black_18dp.png'>";
+  }
+
+  //Menu drop 2
+  function mouseEnter1() {
+    leaveall();
+    document.getElementById("sw").innerHTML = "Star Wars <img width='20px' src='icons/round_keyboard_arrow_left_black_18dp.png'>";
+    document.getElementById("drop1_1").style.display = "block";
+    document.getElementById("drop1_1").style.borderRadius = "10px";
+    replace_footer();
+  }
+  function mouseLeave1() {
+    leaveall();
+    document.getElementById("sw").innerHTML = "Star Wars <img width='20px' src='icons/round_keyboard_arrow_down_black_18dp.png'>";
+    replace_footer();
+  }
+  function mouseEnter2() {
+    leaveall();
+    document.getElementById("mamif").innerHTML = "Animaux<img width='20px' src='icons/round_keyboard_arrow_left_black_18dp.png'>";
+    replace_footer();
+  }
+  function mouseLeave2() {
+    leaveall();
+    document.getElementById("mammif").innerHTML = "Animaux <img width='20px' src='icons/round_keyboard_arrow_down_black_18dp.png'>";
+    replace_footer();
+  }
+  function mouseEnter3() {
+    leaveall();
+    document.getElementById("gamertime").innerHTML = "A vous de jouer <img width='20px' src='icons/round_keyboard_arrow_left_black_18dp.png'>";
+    replace_footer();
+  }
+  function mouseLeave3() {
+    leaveall();
+    document.getElementById("gamertime").innerHTML = "A vous de jouer <img width='20px' src='icons/round_keyboard_arrow_down_black_18dp.png'>";
+    replace_footer();
+  }
+  function mouseEnter4() {
+    leaveall();
+    document.getElementById("whoru").innerHTML = "Qui sommes-nous <img width='20px' src='icons/round_keyboard_arrow_left_black_18dp.png'>";
+    replace_footer();
+  }
+  function mouseLeave4() {
+    leaveall();
+    document.getElementById("whoru").innerHTML = "Qui sommes-nous <img width='20px' src='icons/round_keyboard_arrow_down_black_18dp.png'>";
+    replace_footer();
+  }
+  /******/
+  //ZOOMS
+  var modal = document.getElementById("myModal");
+  var i;
+
+  var img = document.getElementsByClassName("myImg");
+  var modalImg = document.getElementById("img01");
+  var captionText = document.getElementById("caption");
+  function showImg(ele) {
+    modal.style.display = "block";
+    modalImg.src = ele.src;
+    captionText.innerHTML = ele.alt;
+  }
+  var span = document.getElementsByClassName("close")[0];
+
+  /*****/
+  //LEAVE ALL
+  function leaveall() {
+    document.getElementById("drop0_1").style.display = "none";
+    document.getElementById("drop1_1").style.display = "none";
+    document.getElementById("acc").innerHTML = "Accueil <img width='20px' src='icons/round_keyboard_arrow_down_black_18dp.png'>";
+    document.getElementById("sw").innerHTML = "Star Wars <img width='20px' src='icons/round_keyboard_arrow_down_black_18dp.png'>";
+    document.getElementById("mamif").innerHTML = "Animaux <img width='20px' src='icons/round_keyboard_arrow_down_black_18dp.png'>";
+    document.getElementById("gamertime").innerHTML = "A vous de jouer <img width='20px' src='icons/round_keyboard_arrow_down_black_18dp.png'>";
+    document.getElementById("whoru").innerHTML = "Qui sommes-nous <img width='20px' src='icons/round_keyboard_arrow_down_black_18dp.png'>";
+    document.getElementById("Footer").style.bottom = "27px";
+    document.getElementById("allrights").style.bottom = "0";
+  }
+  function replace_footer()
+  {
+    document.getElementById("Footer").style.bottom = "27px";
+    document.getElementById("allrights").style.bottom = "0";
+    document.getElementById("Footer").style.transition = "all 1s ease-out;";
+    document.getElementById("allrights").style.transition = "all 1s ease-out;";
+  }
+    function leaveanimal() {
+    document.getElementById('celeste').style.display = 'none';
+    document.getElementById('terrestre').style.display = 'none';
+    document.getElementById('maritime').style.display = 'none';
+  }
+  window.onload = leaveall();
+  window.onload = leaveanimal();
+
+</script>
+
+</html>
