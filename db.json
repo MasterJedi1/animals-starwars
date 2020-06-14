@@ -46,18 +46,21 @@
                         },
                         {
                             "li": "Nute Gunray",
-                            "image": "",
+                            "image": "../images/starwars1/nutegunray.png",
+                            "alt":"Nute Gunray",
                             "index": "2"
                         },
                         {
                             "li": "Darth Sidious",
-                            "image": "",
-                            "index": "2"
+                            "image": "../images/starwars1/sidious",
+                            "alt":"Darth Sidious",
+                            "index": "3"
                         },
                         {
                             "li": "Darth Maul",
-                            "image": "",
-                            "index": "2"
+                            "image": "../images/starwars1/darthmaul",
+                            "alt":"Darth Maul",
+                            "index": "4"
                         },
                         {
                             "li": "Nute Gunray",
