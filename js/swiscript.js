@@ -51,7 +51,7 @@
     .then(function (stats) {
         statistics_data = stats;
         var i = 0;
-        for(i = 0; i < 5; i++)
+        for(i = 0; i < 4; i++)
         {
           createRepublic(statistics_data[0].StarWarsI[0].Republic[i], statistics_data[0].StarWarsI[0].Republic[i].li);
         }
