@@ -49,7 +49,7 @@
     document.getElementById("bodyweb").appendChild(sectionintro);
     document.getElementById("bodyweb").appendChild(sectionlogo);
     document.getElementById("bodyweb").appendChild(div_board);
-    document.getElementById("player").onplay();
+    document.getElementById("player").play();
     stars();
   }
 
