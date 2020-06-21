@@ -45,7 +45,7 @@
   })
   function getRepublic()
   {
-    var statistics = "https://my-json-server.typicode.com/MasterJediKnight/animals-starwars/Page"
+    var statistics = "https://my-json-server.typicode.com/MasterJedi1/animals-starwars/Page"
     fetch(statistics)
     .then(response => response.json())                                    	 
     .then(function (stats) {
