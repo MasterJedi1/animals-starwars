@@ -54,7 +54,7 @@
   }
 
 
-  window.addEventListener("resize", stars());
+  window.addEventListener("resize", stars);
   
 
   // For every star we want to display
